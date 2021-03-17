@@ -1,5 +1,5 @@
 import React from 'react';
-import theveloper from "./assets/theveloper.png"
+import theveloper from "./assets/theveloper.jpeg"
 import './App.css';
 import {Button} from "./Button";
 
@@ -26,7 +26,7 @@ function App() {
                         <img src={theveloper} className="App-logo" alt="logo"/>
                         <a
                             className="App-link"
-                            href="https://cv.dataframer.com"
+                            href="https://www.linkedin.com/in/salvatore-giammanco-04530131"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
