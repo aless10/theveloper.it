@@ -1,5 +1,5 @@
 import React from 'react';
-import theveloper from "./assets/theveloper.jpeg"
+import theveloper from "./assets/theveloper.png"
 import './App.css';
 import {Button} from "./Button";
 
@@ -24,14 +24,7 @@ function App() {
                     </> :
                     <>
                         <img src={theveloper} className="App-logo" alt="logo"/>
-                        <a
-                            className="App-link"
-                            href="https://www.linkedin.com/in/salvatore-giammanco-04530131"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Take a look at his CV!
-                        </a>
+                        <p>For his outstanding result in the SQL course where he got 29/30</p>
                         <Button onClick={showImg} text={"Back"}/>
                     </>
                 }
